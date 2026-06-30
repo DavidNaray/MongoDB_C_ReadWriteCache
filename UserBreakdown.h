@@ -10,7 +10,7 @@ typedef struct {
     int FreeMil;
 
     int TotalCiv;
-    int FreeMil;
+    int FreeCiv;
 } PDetails;
 
 //-------------------------------------------------------------------

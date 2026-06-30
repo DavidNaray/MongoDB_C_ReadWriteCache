@@ -26,7 +26,7 @@ void bson_to_regimen_training_list(const bson_t* doc, RegimenTrainingList* list)
 
 
 void bson_to_unit(const bson_t* doc, Unit* u);
-void bson_to_unit_block(const bson_t* doc, UnitBlock* ub);
+void bson_to_unit_block(const bson_t* doc, UnitBlock** ub_out);
 void bson_to_regimen(const bson_t* doc, Regimen* r);
 void bson_to_regimen_queue(const bson_t* doc, RegimenQueue* q);
 
