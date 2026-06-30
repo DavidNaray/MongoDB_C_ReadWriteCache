@@ -5,7 +5,8 @@
             "includePath": [
                 "${workspaceFolder}/**",
                 "C:/mongo-c-driver/install/include/bson-2.4.0",
-                "C:/mongo-c-driver/install/include/mongoc-2.4.0"
+                "C:/mongo-c-driver/install/include/mongoc-2.4.0",
+                "C:/Users/david/vcpkg/installed/x64-windows/include"
             ],
             "defines": [
                 "_DEBUG",
