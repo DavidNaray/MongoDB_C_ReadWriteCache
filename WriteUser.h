@@ -1,7 +1,7 @@
 #ifndef WriteUser_H
 #define WriteUser_H   // these form a guard
 
-#include "UserBreakdown.h"
+#include "Schema/UserBreakdown.h"
 #include <bson/bson.h>
 
 bson_t* user_to_bson(const User* u);
