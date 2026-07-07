@@ -24,3 +24,6 @@ cd vcpkg
 
 
 then finally in c_cpp_properties.json you include the include of the vcpkg where pthreads.h lies
+
+
+compile it like: gcc Main.c scheduler.c config.c C:/Users/david/Documents/CodingProjects/C_MMO_RPG_rewrite/CJSON_lib/cjson/cJSON.c -I"C:/Users/david/Documents/CodingProjects/C_MMO_RPG_rewrite/CJSON_lib/cjson" -o DistributedNodes -lpthread

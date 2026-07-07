@@ -1,9 +1,10 @@
 #include <mongoc/mongoc.h>
+#include <pthread.h>
 
 int main() {
     mongoc_init();
 
-    mongoc_client_t* client = mongoc_client_new("mongodb://localhost:27017");
+    mongoc_client_t* client = mongoc_client_new("mongodb://localhost:27019");
 
     bson_t cmd;
     bson_t reply;
